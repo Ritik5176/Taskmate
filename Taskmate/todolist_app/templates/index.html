@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>Home Page-TodoList</title>
+{% endblock title %}
+
+{% block body %}
+<div class='container mt-4'>
+    <div class="row">
+        <div class='col-12 col-sm-4'>
+            <img src="{% static "image/1_Image.png" %}" class="shadow-sm img-fluid" style='width: 100%; height: auto;'>
+        </div>
+
+        <div class='col-12 col-sm-4'>
+            <img src="{% static "image/2_Image.png" %}" class="shadow-sm img-fluid" style='width: 100%; height: auto;'>
+        </div>
+
+        <div class='col-12 col-sm-4'>
+            <img src="{% static "image/3_Image.png" %}" class="shadow-sm img-fluid" style='width: 100%; height: auto;'>
+        </div>
+    </div>
+</div>
+
+
+<center>
+<div class="container mt-5">
+    <p class="h1 text-primary">Quick And Easy to Use, Anywhere!</p>
+    <p class='h4'>"Plan your Day Better, get Your Life Organized"</p>
+    <p class='h6'>TASKMATE Lets you keep Track of Your Tasks In One Place</p>
+    
+    <a href="{% url 'TodoList' %}" class='btn btn-primary mt-3 shadow'>Let's Get Started</a>
+</div>
+</center>
+{% endblock body %}
