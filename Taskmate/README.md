@@ -1,9 +1,4 @@
-- users_app contains the code of user authenication.
-- Developed a task management application using views, models, forms, templates, and the concept of base templates.
-- Designed visually appealing and responsive forms for optimal user experience.
-- Incorporated user authentication and login functionality to track individual users.
-- Ensured full responsiveness for each page, including the use of paginator.
-- Applied '@login required' on specific pages to restrict access to the Task Manager Page before login.
+In the GitHub repository, the "User App" encompasses the complete authentication code. Meanwhile, the "TaskMate" folder hosts the frontend code, with models containing the database model. The implementation involves the utilization of Jinja, forms for data storage, and the creation of views to ensure seamless functionality.
 
 ![image](https://github.com/ChiragV21/Taskmate/assets/55586574/5b0059cf-29f4-43e7-b199-516e53ea0c60)
 
